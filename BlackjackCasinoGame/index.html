@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Casino Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="Side-note" id="notice">
+        <button onclick="startagain()" id="next-hand">Start again</button>
+    </div>
+    <div class="layout-wrapper">
+        <h1>BlackJack Game</h1>
+        <div class="wrapper-container">
+            <p class="notification-message">Let's start the game?!</p>
+            <p class="Cards-count">Number of Cards:</p>
+            <p id="card-sum" class="Sum-cards">The sum is:</p>
+            <div class="btn-container" id="button-container">
+                <button onclick="startplaying()" id="start-game">Begin Game</button>
+                <button onclick="NewCard()" id="new-card">New Card</button>
+            </div>
+        </div>
+   
+ 
+    <script src="script.js"></script>
+</body>
+
+</html>
